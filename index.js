@@ -1,4 +1,8 @@
+var path = require('path');
+var serveStatic = require('serve-static');
+
 const app = require('express')();
+app.use(serveStatic(__dirname + "frontend/dist"));
 const server = require('http').createServer(app);
 const io = require('socket.io')(server);
 const room = {default: {

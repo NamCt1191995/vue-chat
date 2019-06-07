@@ -1,0 +1,27 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NamCt1191995/vue-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NamCt1191995/vue-chat/issues"
+  },
+  "homepage": "https://github.com/NamCt1191995/vue-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "serve-static": "^1.14.1",
+    "socket.io": "^2.2.0",
+    "socketio": "^1.0.0"
+  }
+}
